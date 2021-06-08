@@ -32,7 +32,7 @@ sub ShowSpellList {
   #quest::debug("ID $spell_id");
 
   #  my $Result = "";
-  while (@row = $query_handle->fetchrow_array()){
+  #while (@row = $query_handle->fetchrow_array()){
     my $spell_name = $row[0];
     my $spell_class = $row[1];
     my $spell_level = $row[2];
