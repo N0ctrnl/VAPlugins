@@ -1,12 +1,8 @@
 sub ShowSpellList {
-  #class = 0, level = 1, stat = 2
   #my $character_classInsert = $_[0];
-  #  my $character_class = $class;
-  #  my $class = $_[0];
   my $class = $_[0];
-  #$class = necromancer;
   #my $OrderBy = $_[2];
-  #my $QueryLimit = 1000;
+  #my $QueryLimit = 10;
 	
   $connect = plugin::LoadMysql();
 
